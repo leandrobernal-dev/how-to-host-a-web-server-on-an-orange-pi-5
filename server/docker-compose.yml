@@ -1,0 +1,6 @@
+version: '3'
+services:
+  server:
+    image: myServer
+    ports:
+      - "3500:3500"
