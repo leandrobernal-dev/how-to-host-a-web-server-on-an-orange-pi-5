@@ -103,7 +103,6 @@ Now you have a working local server, CONGRATS!🎉🎉🎉. Now it's time to ser
 1. Follow [this tutorial](https://www.youtube.com/watch?v=eojWaJQvqiw&t=542s) to create a free account and setup a tunnel on cloudflare, and also for some explanation as well.
 2. Once you've created an account and a tunnel, click the tunnel and click Configure, you'll find a command, select Docker and copy the command. Before you paste that to the command line though, first pull the cloudflare image from docker hub, then paste that command from cloudflare
     ```
-    docker pull cloudflare/cloudflared:latest
     docker run cloudflare/cloudflared:latest tunnel --no-autoupdate run --token <your-token>
     ```
 3. If everything went successful you should see in the cloudflare dashboard in tunnels tab, the Status will update to "Healthy"
