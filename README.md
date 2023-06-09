@@ -63,7 +63,7 @@ First question though before we get started: Why the orangepi 5? Well we can act
 
 Before proceeding to this section, although you can just follow this and have a working server, I highly recommend watching a few docker intro to at least gain some knowledge of how everything works on the surface (you don't need to go in depth, but learn just enough to know why use docker at all)
 
-1. Follow this [link](https://docs.docker.com/desktop/install/debian/) from official Docker docs to install docker to your orangepi 5
+1. Follow this [link](https://docs.docker.com/engine/install/debian/) from official Docker docs to install docker to your orangepi 5
 2. Once installed, cd create/open a folder in vscode and pull the included source code for a basic nodejs server from this repo. You will notice I separated the server from db folder, this is not required but for this tutorial this is how I did it
    Create directory
     ```
